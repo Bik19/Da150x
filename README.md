@@ -1,4 +1,4 @@
-# DA150X: Degree Project in Computer Science and Engineering
+## DA150X: Degree Project in Computer Science and Engineering
 
 The project focuses on comparing the performance and behavior of two different pathfinding algorithms. All implementations are written in Python.
 
