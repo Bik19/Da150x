@@ -5,7 +5,14 @@ The project focuses on comparing the performance and behavior of two different p
 ### How to Run
 To run the program do the following for LPA* respective D* Lite:
 
+```bash
 python3 FindPathLpa.py
 
+```
+
+and
+
+```bash
 python3 FindPathDLite.py
 
+```
