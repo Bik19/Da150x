@@ -151,6 +151,8 @@ def scanEnvironment(u, agent):
                     elif agent.rhs[u] == c_old + agent.g[v]:
                         if u != agent.S_goal:
                             agent.rhs[u] = agent.pickMin(agent.S_start)[1]
+            if u != agent.S_goal:
+                agent.rhs[u] = agent.pickMin(u)[0]
             agent.updateVertex(u)
     agent.computeShortestPath()
 
