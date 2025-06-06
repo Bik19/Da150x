@@ -54,7 +54,6 @@ class Dstar:
     def updateVertex(self, u):
         if u != self.S_goal:
             self.rhs[u] = self.pickMin(u)[0]
-
         in_U = any(u == item[1] for item in self.U)
 
         if self.g[u] != self.rhs[u] and in_U:
