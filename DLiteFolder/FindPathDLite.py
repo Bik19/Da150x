@@ -22,7 +22,6 @@ WINDOW_HEIGHT = blockSize * matrix_size
 WINDOW_WIDTH = blockSize * matrix_size
 clock = pygame.time.Clock()
 
-
 matrix_lock = threading.Lock()
 changedEdges = {}
 stepCounter = 0
@@ -278,3 +277,4 @@ def main():
         print("Wrong input!")
 
 main()
+
