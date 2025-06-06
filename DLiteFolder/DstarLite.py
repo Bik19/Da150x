@@ -9,7 +9,6 @@ import heapq
 import math
 import time
 
-
 class Dstar:
     
     def __init__(self, matrix, S_start, S_goal):
@@ -97,6 +96,7 @@ class Dstar:
         self.initializeGrid(self.matrix)
         self.initialize()
         self.computeShortestPath()
+        
     
     def initializeGrid(self, matrix):
         size = len(matrix[0])
